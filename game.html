@@ -12,14 +12,9 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BuildWeb.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body bgcolor="#000000">
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 400px; height: 800px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Fly to Space</div>
-      </div>
+      <div id="gameContainer" style="width: 480px; height: 800px"></div>
     </div>
   </body>
 </html>
